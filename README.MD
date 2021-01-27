@@ -1,38 +1,66 @@
-# Project 1: Livent Application
+# Livent Application
 
 ## Description
 
-![Demo](assets/Livent.gif)
+Livent is an application that allows anyone to search for events by any criteria. A search button will kick off the search and render details.
 
-Livent is an application that allows a user to search for events when they enter specific criteria in the search bar. The event date, location, time and distance to the user will be provided for that particular event. It will also be displayed on a map using API's.
+Only relevant event information will populate for each event found.  Directions will also be displayed using Google Maps API. This source code is available to everyone under the standard [MIT license](https://github.com/Rudy-Menjivar/livent/blob/master/LICENSE.txt).
+
+## Preview
+
+<img src="assets/livent.gif" width="50%" height="50%" alt="Hazy image of concert performers & crowd with hands in the air">
 
 ## User Story
-```
-AS an event-seeker
-I WANT to search for events based on my critera
-SO THAT I can plan for that event accordingly
-```
 
-## Acceptance Criteria
-```
-GIVEN an event dashboard with form inputs
-WHEN I search for an event
-THEN I am presented with information for that event and the event can be saved to the search history
-WHEN I view details about the event
-THEN I am presented the details in a modal that displays the date, time, location and distance to the user
-WHEN I want to save my event
-THEN I click a button that saves the event to a section in addition to saving it to local storage
-```
+As an event-seeker, who likes to plan for events accordingly expect:
+- Events presented must be based on the search critera
+- Events populated should also be the closest events
+- Directions and distance should also populate with a click
+- Last searched events must also be displayed or found easily
+
+## Project Outline
+
+Welcome page loads with an event dashboard that includes input options and a map
+- A map is centered on Sacramento
+- Includes a search input, distance option input, as well as search and clear buttons
+
+When an event is searched
+- Information for events are rendered and the search results are saved to local storage
+- The last search results are rendered on the page, even after refreshing or reloading page
+
+Each event's details are displayed in a card list group
+- Which presents the event information and a get directions button
+- When the Get Directions button is clicked
+- Permission via a prompt is requested for client's geolocation access
+- If permission is granted, the directions are outlined on the map
+- Distance and driving time are also relayed
+
+## Project Links
+
+* [GitHub Repository](https://github.com/Rudy-Menjivar/livent)
+* [Deployed Site](https://rudy-menjivar.github.io/livent/)
 
 ## API's Used
+
 * [PredictHQ](https://www.predicthq.com/api)
 * [GoogleMaps](https://developers.google.com/maps/documentation)
 
 ## Technologies Used
+
 * [Geolocation](https://developers.google.com/maps/documentation/geolocation/overview)
 * [Bulma](https://bulma.io/)
-* HTML
-* Javascript
+* [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)
+* [HTML](https://developer.mozilla.org/en-US/docs/Glossary/HTML)
+* [Javascript](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
+* [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS)
+* [GIF Maker](https://ezgif.com/)
 
 ## Created By
+
 Livent was created by team members from UC Davis's Part-Time Full Stack Coding Bootcamp: Rudy, Vijay, Alex and Steven.
+
+## License
+
+Copyright (c) Rudy Menjivar. All rights reserved.
+
+Licensed under the [MIT](LICENSE.txt) license.
