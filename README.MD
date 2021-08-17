@@ -4,11 +4,21 @@
 
 Livent is an application that allows anyone to search for events by any criteria. A search button will kick off the search and render details.
 
-Only relevant event information will populate for each event found.  Directions will also be displayed using Google Maps API. This source code is available to everyone under the standard [MIT license](https://github.com/Rudy-Menjivar/livent/blob/master/LICENSE.txt).
+Only relevant event information will populate for each event found.  Directions will also be displayed using Google Maps API. This source code is available to everyone under the standard [MIT license](LICENSE.txt).
 
 ## Preview
 
 <img src="assets/livent.gif" width="50%" height="50%" alt="Hazy image of concert performers & crowd with hands in the air">
+
+## Table of Contents
+- [Description](#description)
+- [User Story](#userstory)
+- [Project Outline](#projectoutline)
+- [Project Links](#projectlinks)
+- [Technologies Used](#technologiesused)
+- [Credits](#credits)
+- [License](#license)
+- [Questions](#questions)
 
 ## User Story
 
@@ -37,16 +47,13 @@ Each event's details are displayed in a card list group
 
 ## Project Links
 
-* [GitHub Repository](https://github.com/Rudy-Menjivar/livent)
-* [Deployed Site](https://rudy-menjivar.github.io/livent/)
-
-## API's Used
-
-* [PredictHQ](https://www.predicthq.com/api)
-* [GoogleMaps](https://developers.google.com/maps/documentation)
+* [GitHub Repository](https://github.com/alexbachicha/Livent)
+* [Deployed Site](https://alexbachicha.github.io/Livent/)
 
 ## Technologies Used
 
+* [PredictHQ](https://www.predicthq.com/api)
+* [GoogleMaps](https://developers.google.com/maps/documentation)
 * [Geolocation](https://developers.google.com/maps/documentation/geolocation/overview)
 * [Bulma](https://bulma.io/)
 * [Web Storage API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Storage_API/Using_the_Web_Storage_API)
@@ -55,12 +62,16 @@ Each event's details are displayed in a card list group
 * [CSS](https://developer.mozilla.org/en-US/docs/Glossary/CSS)
 * [GIF Maker](https://ezgif.com/)
 
-## Created By
+## Credits
 
-Livent was created by team members from UC Davis's Part-Time Full Stack Coding Bootcamp: Rudy, Vijay, Alex and Steven.
+Livent was created by team members from UC Davis's Full Stack Coding Bootcamp: Rudy, Vijay, Alex and Steven.
 
 ## License
 
-Copyright (c) Rudy Menjivar. All rights reserved.
-
 Licensed under the [MIT](LICENSE.txt) license.
+
+## Questions 
+
+Any questions, inquries or requests can be directed to my email address at <agbachicha@outlook.com>
+
+![Follow Me](https://img.shields.io/github/followers/alexbachicha?label=Follow%20Me&style=social)
